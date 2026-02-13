@@ -1,0 +1,28 @@
+{
+  "name": "personal-finance-tracker",
+  "version": "1.0.0",
+  "description": "A personal finance tracking application built with Node.js and React",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "build": "echo 'Building application...' && npm test",
+    "dev": "node src/server.js"
+  },
+  "keywords": [
+    "finance",
+    "tracker",
+    "personal",
+    "expenses",
+    "income"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
